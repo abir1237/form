@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <title>une formulaire 2:</title>
+	   <meta charset="utf-8"></met>
+       <link rel="stylesheet" href="formul.css"/>
+	   <script src="java.js"defer></script>
+	  
+</head>
+<meta charset="utf-8"></met>
+<body align"center">
+
+<fieldset>
+<legend>IFORMATION PERSONNELLES</legend>
+<form>
+  <p>
+  
+    Nom :
+    <input type="text" name="Nom de fammille :" size="40" maxlength="40"><br>
+	
+    Prénom :
+    <input type="text" name="Prenom" size="40" maxlength="40"><br>
+	
+    Adresse mail :
+    <input type="text" name="Adresse mail" size="40" maxlength="40"><br>
+	  
+    Age :
+    <input type="text" name="Age" size="10" maxlength="10">
+	
+  </p>
+   
+  <input type="radio" name="Groupedage" value="homme"/>homme
+  <input type="radio" name="Groupedage" value="femme"/> femme<br/>
+  <form action="">
+  <p>
+  pays de résidence :
+    <select name="Pays">
+      <option value="Question">Quel est votre pays de résidence</option>
+      <option value="maroc">maroc</option>
+      <option value="Australie">Australie</option>
+      <option value="Belgique">Belgique</option>
+      <option value="Canada" selected="selected">Canada</option>
+      <option value="États-Unis">États-Unis</option>
+      <option value="France">France</option>
+      <option value="Grande-Bretagne">Grande-Bretagne</option>
+      <option value="Suisse">Suisse</option>
+    </select>
+  </p>
+  </fieldset>
+  
+  <fieldset>
+<legend>Compétence/expérience:</legend>
+ <table>
+    <tr>
+      <td>
+        <input type="checkbox" name="Chanteurs" value="HTML">HTML <br>
+        <input type="checkbox" name="Chanteurs" value="CSS"> CSS<br>
+      </td>
+      <td>
+        <input type="checkbox" name="Chanteurs" value="Javascript"> Javascript<br>
+        <input type="checkbox" name="Chanteurs" value="PHP"> PHP<br>
+      </td>
+      <td>
+        <input type="checkbox" name="Chanteurs" value="Madonna"> SQL<br>
+        <input type="checkbox" name="Chanteurs" value="Withney Houston"> SEO<br>
+      </td>
+    </tr> 
+	
+	<table>
+	<textarea name="Commentaires" cols="30" rows="5" >
+	
+	</textarea>
+	 </fieldset>
+  </table>
+   </fieldset>
+  
+   <p>
+   <table>
+   
+   <fieldset>
+   <legend>validation:</legend>
+    Choisissez un mot de passe :
+    <input type="password" name="motdepasse" size="20" maxlength="20"/>
+	
+  </p>
+  <p>
+   
+    <input type="button" value="envoyer"
+	 
+           onclick="alert('vous avez cliqué sur le bouton envoyer')"/>
+	</table>
+	</fieldset>
+  </p>
+  
+
+  
+</form>
+ </html>

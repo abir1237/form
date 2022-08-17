@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>formulaire js</title>
+	   <link href="form.css" rel="stylesheet">
+	 
+</head>
+<body>
+<main>
+  <div class="stepper">
+    <div class="step--1 step-active">Step 1</div>
+    <div class="step--2">Step 2</div>
+    <div class="step--3">Step 3</div>
+    <div class="step--4">Terminer</div>
+  </div>
+  <form class="form form-active">
+    <div class="form--header-container">
+      <h1 class="form--header-title">
+        Information personnels
+      </h1>
+    </div>
+    <input type="text" placeholder="Nom" />
+    <input type="text" placeholder="Prenom" />
+    <input type="text" placeholder="Mot de pass" />
+    <button class="form__btn" id="btn-1">Suivant</button>
+  </form>
+  <form class="form">
+    <div class="form--header-container">
+      <h1 class="form--header-title">
+        Informtion personnel
+      </h1>
+    </div>
+
+    <input type="text" placeholder="Email" />
+    <input type="text" placeholder="Numero de telephone" />
+    <input type="text" placeholder="Adresse" />
+    <button class="form__btn" id="btn-2-prev">Precédant</button>
+    <button class="form__btn" id="btn-2-next">suivant</button>
+  </form>
+  <form class="form">
+    <div class="form--header-container">
+      <h1 class="form--header-title">
+        Informqtion personnel
+      </h1>
+      
+    </div>
+    <input type="text" placeholder="Specialité" />
+    <input type="text" placeholder="la note de premier anneé" />
+    <input type="text" placeholder="Anneé scolaire" />
+    <button class="form__btn" id="btn-3">Envoyer</button>
+  </form>
+  <div class="form--message"></div>
+</main>
+
+<script src="form.js"> </script>
+</body>
+</html>
